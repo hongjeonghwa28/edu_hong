@@ -13,7 +13,7 @@ import type { FaceProfile } from "./faceDB";
  * 동일인을 같은 환경에서 비교하면 보통 distance 0.0~0.15 (similarity 85~100%).
  * 다른 사람이면 보통 distance 0.6+ (similarity ~40% 이하).
  */
-export const SIMILARITY_THRESHOLD = 80; // % — 필요 시 조정
+export const SIMILARITY_THRESHOLD = 70; // % — 필요 시 조정
 
 export interface MatchResult {
   profileId: string;
